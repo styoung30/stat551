@@ -7,7 +7,7 @@ roll2 <- function(){
 rollbegin <-proc.time()
 rolls <-replicate(10^6, roll2())
 rollend <- proc.time()
-print(rollend - roll begin)
+print(rollend - rollbegin)
 #Set starting positions
 squareHistory <-NULL
 currentSquare <- 1
